@@ -132,6 +132,7 @@
 | **[Vigil](https://github.com/deadbits/vigil-llm)** | Real-time LLM prompt injection detection for production apps | `pip install vigil-llm` then wrap your LLM calls |
 | **[LLM Guard](https://github.com/protectai/llm-guard)** | Input/output sanitisation library for LLM apps — detects injection, PII, toxicity | `from llm_guard import scan_prompt` |
 | **[Rebuff](https://github.com/protectai/rebuff)** | Prompt injection detector with canary tokens and heuristics | `from rebuff import Rebuff` |
+| **[Darkmoon](https://github.com/ASCIT31/Dark-Moon)** | Privacy Gateway keeps PII, IPs, hosts and credentials from reaching the LLM via deterministic placeholders rehydrated locally (data-leakage prevention) | Open-source (GPL-3.0), self-hosted |
 | **[Microsoft Presidio](https://github.com/microsoft/presidio)** | PII detection and anonymisation for LLM outputs | `python3 -m presidio_analyzer analyze --text "text here"` |
 | **[Wazuh + AI](https://github.com/wazuh/wazuh)** | SIEM/XDR with AI-driven anomaly detection and alert correlation | `docker-compose up -d` |
 
