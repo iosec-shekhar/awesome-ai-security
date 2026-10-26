@@ -134,6 +134,7 @@
 | **[Rebuff](https://github.com/protectai/rebuff)** | Prompt injection detector with canary tokens and heuristics | `from rebuff import Rebuff` |
 | **[Microsoft Presidio](https://github.com/microsoft/presidio)** | PII detection and anonymisation for LLM outputs | `python3 -m presidio_analyzer analyze --text "text here"` |
 | **[Wazuh + AI](https://github.com/wazuh/wazuh)** | SIEM/XDR with AI-driven anomaly detection and alert correlation | `docker-compose up -d` |
+| **[Speakeasy control plane](https://github.com/speakeasy-api/gram)** | MCP gateway with identity-based tool permissions, per-action policies, and tool-call audit logs | Follow repository setup, then run `./zero` for local development (Mise and Docker required) |
 
 ---
 
