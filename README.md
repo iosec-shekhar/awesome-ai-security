@@ -134,6 +134,7 @@
 | **[Rebuff](https://github.com/protectai/rebuff)** | Prompt injection detector with canary tokens and heuristics | `from rebuff import Rebuff` |
 | **[Microsoft Presidio](https://github.com/microsoft/presidio)** | PII detection and anonymisation for LLM outputs | `python3 -m presidio_analyzer analyze --text "text here"` |
 | **[Wazuh + AI](https://github.com/wazuh/wazuh)** | SIEM/XDR with AI-driven anomaly detection and alert correlation | `docker-compose up -d` |
+| **[HOL Guard](https://github.com/hashgraph-online/hol-guard)** | Local policy and approval controls for supported AI coding-agent actions, MCP tools and package installs | `hol-guard status` |
 
 ---
 
